@@ -1,5 +1,49 @@
-## Notes:
+# SC1015 Mini-Project DSF3 Group Team 6
 
-1) Dataset is too big to be pushed to Github. In the future, can just push our notebooks into Github while the dataset can be kept on our local computers.
-2) To keep the main branch as lean as possible, lets work in our individual branches first and once we are ready to merge, we can then merge our work into the Main.ipynb notebook in the main branch
+## About
+This is a end-to-end mini-project for SC1015 (Introduction to Data Science and Artificial Intelligence) which is centred about competitive powerlifters from [openpowerlifting.org](https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html). To follow along with this project, please refer to the [main notebook - current dummy link](https://github.com/jinyangp/SC1015_MiniProject/tree/main/JupyterNotebooks).
  
+ A brief summary of the notebook is as follows(in order):
+ 1. Data Extraction
+ 2. Exploratory Data Analysis (EDA)
+ 3. Data Preprocessing
+ 4. Model Building - KMeans
+ 5. Results and Conclusion
+
+## Problem Definition
+ - What makes every division unique? What features can we use to differentiate the divisions?
+ - Can we identify exceptional powerlifters? What makes them exceptional?
+ 
+## Models Used
+ - KMeans Clustering
+ 
+## Conclusion
+ 
+ - What categorises the divisions?
+   - Age and Glossbrenner(TotalKg) were the most effective features in categorising the divisions
+   - BodyweightKg was not as effective
+ 
+ - Other observations relating to division
+    - Doing well in Sub-Juniors is not reflective of a powerlifter's future performance
+    - Prestiguous events like MR-O may not be as highly competitive as expected
+ 
+ - Can we identify exceptional powerlifters? What makes them exceptional?
+   - Yes, can be identified by considering Glossbrenner, BodyweightKg and Age
+   - Young Age (<45 years of age)
+   - Moderate BodyweightKg ( <= 110kg)
+ 
+## Lessons learnt
+- Handling large amount of missing data
+- Determining feature importance for selected features (Principal Component Analysis)  
+- Scaling of data values (StandardScaler and MinMaxScaler)
+- Building a clustering model (KMeans)
+- Deriving data-driven insights from model
+ 
+## Contributors
+- @jinyangp - Data Extraction, EDA, Data Preprocessing, Results and Conclusion
+- @lamkaiyi - Data Extraction, Data Preprocessing, Model Building
+- @ngwenlu - EDA, Results and Conclusion
+ 
+## References
+- https://towardsdatascience.com/pca-clearly-explained-how-when-why-to-use-it-and-feature-importance-a-guide-in-python-7c274582c37e
+- https://builtin.com/data-science/step-step-explanation-principal-component-analysis
