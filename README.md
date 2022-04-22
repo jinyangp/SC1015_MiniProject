@@ -1,7 +1,7 @@
 # SC1015 Mini-Project DSF3 Group Team 6
 
 ## About
-This is a end-to-end mini-project for SC1015 (Introduction to Data Science and Artificial Intelligence) which is centred about competitive powerlifters from [openpowerlifting.org](https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html). To follow along with this project, please refer to the [main notebook - current dummy link](https://github.com/jinyangp/SC1015_MiniProject/blob/main/JupyterNotebooks/main.ipynb).
+This is a end-to-end mini-project for SC1015 (Introduction to Data Science and Artificial Intelligence) which is centred about competitive powerlifters from [openpowerlifting.org](https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html). To follow along with this project, please refer to the [main notebook](https://github.com/jinyangp/SC1015_MiniProject/blob/main/JupyterNotebooks/main.ipynb).
  
  A brief summary of the notebook is as follows(in order):
  1. Data Extraction
