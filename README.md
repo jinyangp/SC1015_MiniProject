@@ -1,7 +1,7 @@
 # SC1015 Mini-Project DSF3 Group Team 6
 
 ## About
-This is a end-to-end mini-project for SC1015 (Introduction to Data Science and Artificial Intelligence) which is centred about competitive powerlifting from [openpowerlifting.org](https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html). The data set was retrieved on 14 March 2022. To follow along with this project, please refer to the [main notebook](https://github.com/jinyangp/SC1015_MiniProject/blob/main/JupyterNotebooks/main.ipynb).
+This is an end-to-end mini-project for SC1015 (Introduction to Data Science and Artificial Intelligence) which is centred about competitive powerlifting. The dataset was retrieved from [openpowerlifting.org](https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html), on 14 March 2022. To follow along with this project, please refer to the [main notebook](https://github.com/jinyangp/SC1015_MiniProject/blob/main/JupyterNotebooks/main.ipynb).
  
  A brief summary of the notebook is as follows(in order):
  1. Data Extraction
@@ -41,7 +41,7 @@ This is a end-to-end mini-project for SC1015 (Introduction to Data Science and A
  
 ## Contributors
 - @jinyangp - Data Extraction, EDA, Data Preprocessing, Results and Conclusion
-- @lamkaiyi - Data Extraction, Data Preprocessing, Model Building
+- @lamkaiyi - Data Extraction, Data Preprocessing, Model Building, Results and Conclusion
 - @ngwenlu - EDA, Results and Conclusion
  
 ## References
